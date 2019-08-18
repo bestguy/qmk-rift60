@@ -1,3 +1,33 @@
+# Rift 60 Keyboard Firmware
+
+QMK-based firmware for Teensy 2.0 and Rift 60 PCB
+
+## Layers
+
+Blank key means uses key from layer below.
+
+### Layer 0 (QWERTY)
+
+![Layer 0](layer0.png)
+
+'Layer 2' key will activate Layer 2 when held down.
+
+### Layer 1 (COLEMAK)
+
+![Layer 1](layer1.png)
+
+### Layer 2 (Function)
+
+![Layer 2](layer2.png)
+
+'QWERTY' key will activate Layer 0.
+
+'COLEMAK' key will activate Layer 1.
+
+----
+
+Original QMK Readme is below:
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
